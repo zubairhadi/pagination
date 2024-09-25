@@ -1,0 +1,52 @@
+html {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.paginationButtonsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button,
+.count {
+  border: none;
+  background-color: #009879;
+  border-radius: 0.2rem;
+  color: white;
+  padding: 0.3rem 0.6rem;
+}
+
+button {
+  margin: 0rem 1.5rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: #009879;
+  border-bottom: solid 0.2rem #009879;
+}
+
+tbody {
+  background-color: white;
+  color: rgb(54, 54, 54);
+}
+h1 {
+  text-align: center;
+}
+thead > tr {
+  background-color: #009879;
+  padding: 1rem 1rem;
+  color: white;
+  font-weight: 800;
+}
+tbody > tr > td {
+  border-bottom: 1px solid rgb(77, 77, 77);
+}
+
+td {
+  padding: 0.5rem 1rem;
+}
